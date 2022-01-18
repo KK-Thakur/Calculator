@@ -5,7 +5,7 @@ var operand2 = null;
 var operator = null;
 
 for (var i = 0; i <= buttons.length; i++) {
-    buttons[i].addEventListener('click', function () {
+    buttons[i].addEventListener('click',function(){
         var value = this.getAttribute('data-value');
 
         if (value == 'AC') {
