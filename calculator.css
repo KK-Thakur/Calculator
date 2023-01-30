@@ -11,7 +11,7 @@ html{
     margin: auto;
     margin-top: 40px;
     background-color: lightgray;
-    padding: 0.8%;
+    padding: 1.5%;
 }
 /*heading calculator*/
 h3{
@@ -25,16 +25,18 @@ h3{
 /* display */
 #display_container{
     height: 70px;
-    background-color: white;
+    background-color: #a7af7c;
     margin-bottom: 10px;
     text-align: end;
     padding: 0 10px;
+    border-radius: 5px;
 }
 #display{
     padding-top: 30px;
     font-size: 2.0rem;
     font-weight: 500;
-    color: mediumblue;
+    /* color: mediumblue; */
+    overflow: hidden;
 }
 /* botton container */
 #button_container{

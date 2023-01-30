@@ -1,7 +1,7 @@
 var display = document.getElementById("display");
 var buttons = document.getElementsByClassName("button");
 var operand1 = 0;
-var operand2 = null;
+var operand2 = 0;
 var operator = null;
 
 for (var i = 0; i <= buttons.length; i++) {
@@ -10,9 +10,9 @@ for (var i = 0; i <= buttons.length; i++) {
 
         if (value == 'AC') {
             display.innerText =null;
-            //var operand1 = 0;
-            //var operand2 = 0;
-            //var operator = null;
+            // var operand1 = 0;
+            // var operand2 = null;
+            // var operator = null;
         }
         else if(value == '+/-'){
             var op=display.textContent;
